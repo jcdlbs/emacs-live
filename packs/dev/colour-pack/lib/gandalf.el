@@ -64,7 +64,8 @@
      (ido-only-match ((t (:foreground "black" :background "grey95"))))
      (ido-subdir ((t (:foreground "white" :background "#758BC6"))))
      (ido-indicator ((t (:foreground "black" :background "deep pink"))))
-     (minibuffer-prompt ((t (:foreground "dark blue" :background "grey85"))))
+     (ido-indicator ((t (:foreground "black" :background "deep pink"))))
+     (flx-highlight-face ((t (:foreground "black" :background "deep pink"))))
 
      ;; magit
      (magit-item-highlight ((t (:background "gray15"))))
@@ -73,6 +74,9 @@
      (magit-section-type ((t (:foreground "deep pink"))))
      (magit-diff-hunk-header ((t (:foreground "orange"))))
      (magit-branch ((t (:foreground "DarkGoldenRod"))))
+
+     (eval-sexp-fu-flash ((t (:background "DeepPink3" :foreground "black"))))
+     (cider-error-highlight-face ((t (:background "color-52"))))
 
      ;;rainbow-delimiters (
      (rainbow-delimiters-depth-1-face ((t (:foreground "gray50"))))
@@ -111,8 +115,6 @@
  ;;nXhtml colours
  '(mumamo-background-chunk-major ((((class color) (background dark)) (:background "black"))))
  '(mumamo-background-chunk-submode1 ((((class color) (background dark)) (:background "black"))))
-
- '(eval-sexp-fu-flash ((((class color) (background dark)) (:background "grey15" :foreground "DeepPink3"))))
 
  ;;diff colours
  '(diff-removed ((t (:foreground "Red"))) 'now)
